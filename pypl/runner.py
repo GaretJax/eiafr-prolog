@@ -55,6 +55,7 @@ class PrologProtocol(protocol.ProcessProtocol):
         self.transport.signalProcess('KILL')
     
     def processEnded(self, status):
+        print "OK"
         reactor.stop()
     
     def errReceived(self, err):
@@ -86,5 +87,6 @@ reactor.run()
 parser = TraceParser([p.strip() for p in protocol.gettrace() if p.strip()])
 parser.parse()
 
+print "Done"
 
 
