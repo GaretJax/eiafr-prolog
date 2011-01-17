@@ -1,0 +1,1 @@
+python $(dirname $0)/bench.py ex03 triplet 1 2 2a 3 | bash | python $(dirname $0)/analyze.py

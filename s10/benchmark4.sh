@@ -1,0 +1,1 @@
+python $(dirname $0)/bench4.py ex04 solve 1 | bash

@@ -1,0 +1,1 @@
+python $(dirname $0)/bench.py | bash | python $(dirname $0)/analyze.py
