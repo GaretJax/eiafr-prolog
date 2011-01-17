@@ -14,19 +14,19 @@ Dependencies
 The script depends on python (tested on 2.6, but maybe 2.5 works too) and the
 following packages:
 
- * Twisted      Netowkring and subprocessing (this is a really really stupid
-                dependency and the code should be rewritten to use the stdlib
-                subprocess module).
- * yapgvb       Graphviz bindings
- * pyparsing    Parsers generation support
+ * ``Twisted`` Networking and subprocessing (this is a really really stupid
+   dependency and the code should be rewritten to use the stdlib subprocess
+   module).
+ * ``yapgvb`` Graphviz bindings
+ * ``pyparsing`` Parsers generation support
 
 
 Files
 -----
 
- * runner.py    Main program
- * parser.py    Basic parser for prolog's trace output
- * source.pl    The source of the tree to analyze
+ * ``runner.py`` Main program
+ * ``parser.py`` Basic parser for prolog's trace output
+ * ``source.pl`` The source of the tree to analyze
 
 
 Executing
