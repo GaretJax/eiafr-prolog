@@ -32,11 +32,9 @@ Files
 Executing
 ---------
 
-Simply run::
+Simply run the following command from the command line::
 
     python runner.py
-
-from the command line
 
 
 Known bugs and limitations
